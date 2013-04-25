@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* This website was designed and coded by Ankit Sardesai. */
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; text-decoration:none;}
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+:focus {outline: 0;}
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+/* Global Styles */
+a { color: #006699; text-decoration:none; }
+a:hover { color: #000000; text-decoration:none; }
+body { background-image: url(../images/stripebg.png);}
+#wrapper { padding: 20px; background: #FFFFFF; width: 850px; margin: auto; margin-top: 20px; margin-bottom: 20px; font-family: "Verdana", sans-serif; letter-spacing: 0px; }
+#wrapper #header { height: 100px; padding-bottom: 20px; }
+#wrapper #header #logo { height: 100px; width: 266px; -moz-box-shadow: 0 0 5px black; -webkit-box-shadow: 0 0 5px black; box-shadow: 0 0 5px black; float:left; }
+#wrapper #header #banner { height: 100px; border-right: 3px solid #aaa; float: right; }
+#wrapper #header em { clear:both; display:block; padding: 15px; font-size: 15px; font-style: normal; display:none; }
+#wrapper #nav { height: 40px; width: 800px; margin:auto; }
+#wrapper #nav a { border: 2px solid transparent; background: transparent; padding: 8px; margin: 0 30px; width: 120px; height: 20px; float:left; font-size: 17px; text-align: center; -webkit-transition-property: background, border-color; -webkit-transition-duration: 0.2s; -moz-transition-property: background, border-color; -moz-transition-duration: 0.2s; -o-transition-property: background, border-color; -o-transition-duration: 0.2s; -ms-transition-property: background, border-color; -ms-transition-duration: 0.2s; transition-property: background, border-color; transition-duration: 0.2s; }
+#wrapper #nav a:hover, #wrapper #nav a#selected  { background: #d8f2ff; }
+#wrapper #nav a#selected { color: black; }
+#wrapper h1 { margin-top: 20px; padding: 15px; font-size: 21px; font-weight: normal; background: #d8f2ff; text-align:left; color: #006699; letter-spacing: 1px;}
+#wrapper #body { font-size: 13px;  margin-top: 20px; min-height: 200px; line-height: 150%; }
+#wrapper #body #mainpicture { float: right; width: 266px; height: 200px; padding-bottom: 10px; padding-left: 10px; }
+#wrapper #body #top { padding:0; }
+#wrapper #body p { padding-top: 20px; }
+#wrapper #body p.corpprofile { padding: 15px 15px 0 15px; }
+#wrapper #body ul { padding: 0 30px; list-style:disc; }
+#wrapper #body li { padding-top: 10px; }
+#wrapper #body #contactus { display:block; height: auto; padding: 0 0 10px 30px; margin: 5px; }
+#wrapper #footer { margin-top: 20px; padding: 17px; height: 16px; background: #d8f2ff; text-align: center; font-size: 13px; color: #666; }
